@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+/*
+*** LIMPAR FORMATAÇÃO PADRÃO ***
+*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #e6e6e6;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+
+/*
+*** FORMATAÇÃO DE TEXTO ***
+*/
+h1{
+    text-align: center;
+    margin: 25px;
+    color: #3b81bf;
+}
+
+h2 {
+    color: #3b81bf;
+}
+
+h3{
+	color: #565656;
+	background: #CCC;
+	padding: 5px;
+}
+
+/*
+*** CABEÇALHO ***
+*/
+#cabecalho {
+    background-color: #3b81bf;
+    text-align: center;
+    font-size: 2em;
+    padding: 30px;
+}
+
+#navbar {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    word-spacing: 20px;
+}
+/* Formatação de Link */
+a {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #4a8a9e;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+/* Formatação do Link no cabeçalho */
+#cabecalho a{
+    font-size: 1em;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+#cabecalho a:link, #cabecalho a:visited{
+    color: #90cddf;
+}
+
+#cabecalho a:hover {
+    background-color: white;
+    color: #3b81bf;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+/*
+*** ÁREA PRINCIPAL ***
+*/
+#area-principal {
+    width: 940px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-postagens {
+    width: 660px;
+    float: left;
+}
+
+.conteudo-principal {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.data {
+    font-size: 0.8em;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f4f4f4;
+    display: block;
+}
+/* Formatação do Link na área principal */
+#area-principal a:hover{
+    font-size: 1.1em;
+}
+
+
+
+/*
+*** ÁREA LATERAL ***
+*/
+#area-lateral {
+	width: 280px;
+	margin-left: 650px;
+    position: fixed;
+}
+
+.conteudo-lateral {
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.postagem-lateral {
+	padding: 5px;
+	border-bottom: 1px dotted #CCC;
+}
+
+
+/*
+*** RODAPÉ ***
+*/
+#rodape {
+    background: #CCC;
+	clear: both;
+	text-align: center;
+	padding: 15px;
+}
+
+
+/*
+*** ÁREA PERSONAGENS ***
+*/
+#area-conteudo-per{
+    margin-left: 110px;   
+}
+
+.imagem-personagens{
+    background-color: white;
+    width: 265px;
+    padding: 15px;
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+    
+}
+
+.descricao-personagens{
+    text-align: left;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}

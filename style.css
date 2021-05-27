@@ -148,6 +148,14 @@ a:hover{
 	padding: 15px;
 }
 
+#rodape-personagem{
+    background: #CCC;
+	clear: both;
+	text-align: center;
+	padding: 15px;
+    margin: 0 300px; 
+}
+
 
 /*
 *** ÁREA PERSONAGENS ***
